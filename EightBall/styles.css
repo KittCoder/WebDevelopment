@@ -1,0 +1,35 @@
+body {
+    background-color: cornflowerblue;
+    max-width: 600px;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: khaki;
+    margin: 5px;
+}
+
+button {
+    color: black;
+}
+
+#answerBTN, #magicEightBall {
+    text-align: center;
+    margin: 10px;
+}
+
+#answerCircle {
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    margin-left: 70px;
+    margin-top: 70px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: none;
+    position: absolute;
+}

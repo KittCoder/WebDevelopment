@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outerBox {
+    height: 100vh;
+}
+
+.utilityFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(207,204,159);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.logoBox {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.innerBox {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logoText {
+    color: rgb(31,145,31);
+}
+
+.subHeading {
+    color: rgb(12,78,12);
+    font-size: 25px;
+}
+
+.inputField{
+    height: 50px;
+    width: 300px;
+    border: 2px solid rgb(14,112,14);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    border: none;
+}
+
+.result {
+    background-color: rgb(47,71,11);
+    height: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
